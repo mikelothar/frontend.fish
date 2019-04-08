@@ -27,7 +27,7 @@ reactRoutes.push(
     path="/"
     exact
     key="index"
-    component={props => <Home articles={articles} {...props} />}
+    render={props => <Home articles={articles} {...props} />}
   />
 )
 
@@ -37,7 +37,7 @@ reactRoutes.push(
       <Route
         path={'/' + path}
         key={path}
-        component={props => <Details article={articles.get(path)} {...props} />}
+        render={props => <Details article={articles.get(path)} {...props} />}
       />
     )
   })
