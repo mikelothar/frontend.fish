@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "markdown-with-front-matter-loader": "^0.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
@@ -24,10 +26,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "github-markdown-css": "^3.0.1",
     "husky": "^1.3.1",
     "prettier": "^1.16.4",
     "pretty": "^2.0.0",
-    "pretty-quick": "^1.10.0"
+    "pretty-quick": "^1.10.0",
+    "react-router": "^5.0.0"
   },
   "husky": {
     "hooks": {
